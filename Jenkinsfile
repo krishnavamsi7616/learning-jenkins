@@ -17,7 +17,7 @@ pipeline {
         {
         echo "Hello"
         }
-        failed
+        failure
         {
         echo "Failed State"
         }
