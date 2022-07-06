@@ -12,4 +12,18 @@ pipeline {
             }
         }
     }
+    post {
+        always
+        {
+        echo "Hello"
+        }
+        failed
+        {
+        echo "Failed State"
+        }
+        cleanup
+        {
+        echo "Common Steps"
+        }
+    }
   }
