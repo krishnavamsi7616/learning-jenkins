@@ -69,6 +69,9 @@
 
 pipeline{
 agent any
+tools{
+maven 'maven'
+}
 stages{
     stage('Maven Version'){
     steps {
