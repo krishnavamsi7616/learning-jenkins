@@ -49,6 +49,8 @@ SAMPLE_URL="google.com"
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
 
+    triggers { pollSCM('* * * * *') }
+
 stages
 {
 
