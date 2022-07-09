@@ -128,10 +128,11 @@ pipeline {
                 echo 'S2'
             }
         }
-        when {
-        branch 'main'
-        }
+
         stage('Parallel Stages'){
+         when {
+                branch 'main'
+                }
             parallel {
                 stage('P1'){
                     steps {
