@@ -111,7 +111,7 @@
 //         }
 //     }
 //
-// 
+//
 //}
 
 
@@ -127,6 +127,9 @@ pipeline {
             steps {
                 echo 'S2'
             }
+        }
+        when {
+        branch 'main'
         }
         stage('Parallel Stages'){
             parallel {
