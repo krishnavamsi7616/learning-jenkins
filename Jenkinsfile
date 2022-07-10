@@ -160,4 +160,5 @@
 
 @Library('roboshop-jenkins-shared-library') _
 
+env.COMPONENT = 'roboshop-jenkins-shared-library'
 log()
