@@ -160,5 +160,5 @@
 
 @Library('roboshop-jenkins-shared-library') _
 
-env.COMPONENT = 'roboshop-jenkins-shared-library'
+env.COMPONENT = 'cart'
 log()
